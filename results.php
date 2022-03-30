@@ -4,8 +4,8 @@
 	$rate = $_POST['rate'];
 
 	// calculate the pay and how much the government takes
-	$pay = ($rate * $hours) - ((($rate * $hours) / 100) * 18.05)   
-  $tax = ((($rate * $hours) / 100) * 18.05)
+	$pay = ($rate * $hours) - ((($rate * $hours) / 100) * 18.05);  
+  $tax = ((($rate * $hours) / 100) * 18.05);
 ?>
 <h3>Results:</h3>
 Your pay will be $ <?php echo "$pay" ?>.
